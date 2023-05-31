@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Image Gallery</title>
+    <!-- Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color:#ecf0f1;">
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Gallery</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="container">
+        <div class="jumbotron my-3" style="background-color:#30336b;">
+            <h2 class="text-white display-4">This is the Image Gallery</h2>
+            <hr class="bg-light">
+            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt exercitationem nisi eos perferendis? Quasi laborum deleniti magnam. Dolorum, eum sint!</p>
+        </div>
+    </div>
+    <!-- Images -->
+    <div class="container">
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-sm my-2">
+                <img src="https://cdn.pixabay.com/photo/2018/10/08/14/46/bird-3732867_640.jpg" alt="Owl in a snowy biome" class="img-thumbnail">
+            </div>
+            <div class="col-sm my-2">
+                <img src="https://cdn.pixabay.com/photo/2016/08/07/16/45/owl-1576572_640.jpg" alt="Owl in a tree" class="img-thumbnail">
+            </div>
+            <div class="col-sm my-2">
+                <img src="https://cdn.pixabay.com/photo/2018/04/22/12/48/owl-3340957_640.jpg" alt="Owl flying over grass" class="img-thumbnail">
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="col-sm my-2">
+                <img src="https://cdn.pixabay.com/photo/2017/11/14/13/06/kitty-2948404_640.jpg" alt="Cat about to attack flowers" class="img-thumbnail">
+            </div>
+            <div class="col-sm my-2">
+                <img src="https://cdn.pixabay.com/photo/2019/11/08/11/56/kitten-4611189_640.jpg" alt="Cat staring with wide eyes" class="img-thumbnail">
+            </div>
+            <div class="col-sm my-2">
+                <img src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg" alt="Cat sitting" class="img-thumbnail">
+            </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="row">
+            <div class="col-sm my-2">
+                <img src="https://cdn.pixabay.com/photo/2017/09/25/13/12/puppy-2785074_640.jpg" alt="Dog laying down on the floor" class="img-thumbnail">
+            </div>
+            <div class="col-sm my-2">
+                <img src="https://cdn.pixabay.com/photo/2019/08/19/07/45/corgi-4415649_640.jpg" alt="Dog enjoying the rain" class="img-thumbnail">
+            </div>
+            <div class="col-sm my-2">
+                <img src="https://cdn.pixabay.com/photo/2015/11/17/13/13/puppy-1047521_640.jpg" alt="Dog peeking over a wooden box." class="img-thumbnail">
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="container">
+        <nav aria-label="Page Navigation">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <div class="footer-container bg-dark text-white py-5">
+            <div class="row text-center">
+                <div class="col-sm">
+                    <img src="https://cdn.pixabay.com/photo/2020/12/12/11/48/among-us-5825180_640.jpg" alt="Among Us" width="75px" class="rounded-circle">
+                    <h5 class="my-3">Chris Lambert</h5>
+                    <p>chris.lambert@example.com</p>
+                    <a href="" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+                <div class="col-sm">
+                    <img src="https://cdn.pixabay.com/photo/2017/07/28/22/28/barn-owl-2550068_640.jpg" alt="Beak" width="75px" height="75px" class="rounded-circle">
+                    <h5 class="my-3">Beak</h5>
+                    <p>beak@owls.owlhome</p>
+                    <a href="" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+                <div class="col-sm">
+                    <img src="https://static.toiimg.com/thumb/msid-94540478,imgsize-18682,width-400,resizemode-4/94540478.jpg" alt="Mahatma Gandhi" width="75px" height="75px" class="rounded-circle">
+                    <h5 class="my-3">Mahatma Gandhi</h5>
+                    <p>mahatmagandhi@fatherofindia.peace</p>
+                    <a href="" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <p class="copyright py-5">
+                Copyright &copy; 2023 by Tintin246852
+            </p>
+        </div>
+    </div>
+    <!-- <div style="margin-bottom:100px;"></div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS | POPPER | JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
