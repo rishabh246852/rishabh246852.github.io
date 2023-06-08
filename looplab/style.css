@@ -1,0 +1,43 @@
+body{
+    background-color:#333;
+    color:#fff;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    scroll-snap-align: center;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    border-bottom:#ffc107 2px solid;
+    opacity:0.8;
+}
+
+
+#home-section{
+    background: url("https://cdn.pixabay.com/photo/2015/01/08/18/26/man-593333_1280.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    min-height:725px;
+}
+
+
+#home-section .dark-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:725px;
+    background:rgba(0, 0, 0, 0.7)
+}
+
+
+#home-section .home-inner{
+    padding-top:125px;
+
+}
